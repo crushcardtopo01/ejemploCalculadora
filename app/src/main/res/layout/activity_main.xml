@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Number 1" />
+        <EditText
+            android:id="@+id/n1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Number 2" />
+        <EditText
+            android:id="@+id/n2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnSuma"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="+"
+            />
+        <Button
+            android:id="@+id/btnResta"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnMultiplpicar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="X"
+            />
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="/"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnPow"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Pow"
+            />
+        <Button
+            android:id="@+id/btnSqrt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sqrt"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_marginLeft="150dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Result --> " />
+        <TextView
+            android:id="@+id/result"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+
+</LinearLayout>
